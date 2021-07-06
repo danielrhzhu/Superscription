@@ -1,0 +1,15 @@
+query findSubs($name: String, $limit: Int, $offset: Int) {
+  findSubs(name: $name, limit: $limit, offset: $offset) {
+    subs {
+      _id
+      userId
+      name
+      amount
+      startDate
+      frequency
+      color
+      notification
+    }
+    more
+  }
+}

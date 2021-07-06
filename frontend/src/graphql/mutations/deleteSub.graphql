@@ -1,0 +1,3 @@
+mutation deleteSub($_id: String!) {
+  deleteSub(_id: $_id)
+}

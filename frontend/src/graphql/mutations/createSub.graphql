@@ -1,0 +1,7 @@
+mutation createSub($inputs: SubInputs!) {
+  createSub(inputs: $inputs) {
+    userId
+    name
+    amount
+  }
+}

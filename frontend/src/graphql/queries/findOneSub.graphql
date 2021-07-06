@@ -1,0 +1,10 @@
+query findOneSub($id: String!) {
+  findOneSub(id: $id) {
+    name
+    amount
+    startDate
+    frequency
+    color
+    notification
+  }
+}

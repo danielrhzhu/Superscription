@@ -1,0 +1,11 @@
+mutation editSub($id: String!, $inputs: SubInputs) {
+  editSub(id: $id, inputs: $inputs) {
+    _id
+    name
+    amount
+    startDate
+    frequency
+    color
+    notification
+  }
+}
