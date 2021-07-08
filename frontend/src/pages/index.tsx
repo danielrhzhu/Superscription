@@ -66,17 +66,20 @@ const Index = () => {
               ml={{ sm: "0", md: "5vw" }}
               justifyContent="start"
               alignItems="center"
-              bgGradient="linear(to-l, #425af5, #42d7f5)"
-              bgClip="text"
             >
-              <Heading fontSize={{ sm: "12vw", md: "8vw", lg: "7vw" }}>
+              <Heading
+                bgGradient="linear(to-l, #425af5, #42d7f5)"
+                bgClip="text"
+                fontSize={{ sm: "12vw", md: "8vw", lg: "7vw" }}
+              >
                 Superscription
               </Heading>
             </Flex>
             <Box
               mt="8vh"
+              h="10vh"
               ml={{ sm: "0", md: "5vw" }}
-              mb={{ sm: "0", md: "10vh" }}
+              mb={{ sm: "10vh", md: "10vh" }}
             >
               <Text fontSize={{ sm: "20px", md: "20px", lg: "2vw" }}>
                 Never forget to cancel your <Box as="span" ref={textRef}></Box>

@@ -52,7 +52,7 @@ const Dashboard: React.FC<DashboardProps> = ({}) => {
   const [offsetState, setOffsetState] = useState(0);
   const [limitState, setLimitState] = useState(6);
   const options = [6, 10, 15];
-  const { data, loading, error } = useFindSubsQuery({
+  const { data, loading } = useFindSubsQuery({
     variables: {
       limit: limitState,
       offset: offsetState,

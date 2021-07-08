@@ -39,12 +39,7 @@ export const LoginRegisterModal: React.FC<LoginRegisterModalProps> = ({}) => {
   });
   return (
     <>
-      <ButtonGroup
-        position={{ sm: "fixed", md: "sticky" }}
-        bottom={{ sm: "40vh", md: "unset" }}
-        ml={{ sm: "0", md: "5vw" }}
-        variant="outline"
-      >
+      <ButtonGroup ml={{ sm: "0", md: "5vw" }} variant="outline">
         <Button
           pl={{ sm: "8vw", md: "5vw" }}
           pr={{ sm: "8vw", md: "5vw" }}
